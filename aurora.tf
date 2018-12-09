@@ -1,4 +1,6 @@
-
+#pymysql
+#psycopg2
+#pip install pymysql "C:\Users\SHIVA\Desktop\"
 # Aurora Cluster creation
 resource "aws_rds_cluster" "rds_cluster" {
   cluster_identifier                  = "${var.name}-${var.Environment}-rds-auroracluster"
